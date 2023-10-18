@@ -1,0 +1,18 @@
+{
+	"pd.DataFrame.1": {
+		"scope": "python",
+		"prefix": "df1",
+		"body": [
+			"pd.DataFrame(data=[[$1]], columns=[$2])"
+		],
+		"description": "Create Pandas DataFrame having one observation"
+	},
+	"pd.DataFrame.2": {
+		"scope": "python",
+		"prefix": "df2",
+		"body": [
+			"pd.DataFrame(data=[[$1], [$2]], columns=[$3])"
+		],
+		"description": "Create Pandas DataFrame having two observations"
+	}
+}
